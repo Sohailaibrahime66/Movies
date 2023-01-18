@@ -27,6 +27,9 @@ function displayMovies(){
     
 }
 
+// -----------------------
+$(document).ready(()=> $('body').css('overflow' , 'auto'))
+
 
 
 
