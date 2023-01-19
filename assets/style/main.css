@@ -41,6 +41,7 @@ a {
   border-radius: 50%;
   color: var(--light-bg);
   display: flex;
+  z-index: 99;
   align-items: center;
   justify-content: center;
   background-color: var(--main-color);
