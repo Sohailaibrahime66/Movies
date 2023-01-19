@@ -27,21 +27,16 @@ window.addEventListener('scroll',function(){
 
 // ----------------------------
 // random
-// let count =0
 let random = document.querySelectorAll('#review-random')
-// for (let i = 0; i < random.length; i++) {
-//     random[i].innerHTML = count + Math.round(Math.random()*5000)+`K`
-    
-// }
 
-function random(){
+function randomReviews(){
     for (let i = 0; i < random.length; i++) {
-        random[i].innerHTML = count + Math.round(Math.random()*5000)+`K`
+        random[i].innerHTML =  Math.round(Math.random()*5000)+`K`
         
     }
 }
 
-setInterval( random , 2000)
+setInterval( randomReviews , 2000)
 
 // ----------------------------------
 // logout 
