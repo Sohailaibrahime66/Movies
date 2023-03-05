@@ -45,7 +45,7 @@ function validationPassword(){
         return true
     }
     else{
-        document.getElementById('error').innerHTML = `<div class="alert alert-danger">Password Invalid...!</div>`
+        document.getElementById('error').innerHTML = `<div class="alert alert-danger">Password must start uppercase...!</div>`
     }
 }
 
