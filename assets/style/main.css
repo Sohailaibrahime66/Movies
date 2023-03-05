@@ -34,7 +34,9 @@ a {
   color: var(--font-color);
   
 }
-
+label {
+color:#fff;
+}
 .to-up {
   width: 3rem;
   height: 3rem;
