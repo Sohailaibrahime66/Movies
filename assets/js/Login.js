@@ -40,7 +40,7 @@ function validationEmail(){
     }
 }
 function validationPassword(){
-    let regx = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/
+    let regx = /^[A-Z]\w{3,}$/
     if(regx.test(password.value)==true){
         return true
     }
