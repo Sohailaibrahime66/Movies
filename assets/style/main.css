@@ -35,7 +35,7 @@ a {
   
 }
 label {
-color:#fff;
+color:#fff !important;
 }
 .to-up {
   width: 3rem;
